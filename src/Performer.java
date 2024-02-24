@@ -1,10 +1,10 @@
 public class Performer {
     
-    protected String name;
-    protected int age;
+    private String name;
+    private int age;
 
     public Performer() {
-        name = "Nathaniel Higgers";
+        name = "Nathaniel Triggers";
         age = 18;
     }
 
@@ -29,9 +29,9 @@ public class Performer {
         this.age = age;
     }
 
-    public String sayNWord() {
+    public String sayWord() {
         if (age < 18) {
-            return "Nate Higgers";
+            return "You are too young";
         } else {
             return null;
         }
